@@ -3,6 +3,7 @@ import {Routes,Route} from 'react-router-dom';
 import HomePage from './HomePage';
 import SingleMovieInfo from "./SingleMovieInfo";
 import Error from './Error';
+import './App.css'
 
 
 

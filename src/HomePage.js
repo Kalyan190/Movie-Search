@@ -5,10 +5,14 @@ import Movie from './Movie'
 
 const HomePage = () => {
 
-  return <>
-    <Search/>
-    <Movie/>
+  return (
+    <>
+   <div className='container'>
+   <Search/>
+   <Movie/>
+   </div>
   </>
-}
+  );
+};
 
 export default HomePage
