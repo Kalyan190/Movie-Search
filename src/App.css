@@ -39,8 +39,6 @@ a {
 }
 
 img {
-  /* width: 25rem; */
-  
   max-width: 20rem;
   max-height: 30rem;
   margin: 1rem 0;
@@ -48,36 +46,25 @@ img {
   transition: all 0.3s linear;
 }
 
-/* resuable code  */
 .container {
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
-  /* background-color: aqua; */
 
 }
 
-
-
-/* .grid-4-col {
-  grid-template-columns: repeat(4, 1fr);
-} */
 
 .card {
   width: 25rem;
   max-width: 30rem;
   min-height: 30rem;
-  /* background-color: #fafaff; */
-  /* padding: 2rem; */
   border-radius: 1rem;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* search css  */
 .search-section {
   margin: auto;
   text-align: center;
@@ -91,7 +78,6 @@ input {
   border: 1px solid var(--border-clr);
   padding: 1rem 2rem;
   font-size: 1.8rem;
-  /* border-color: var(--border-clr); */
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
     rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
   outline: none;
@@ -103,8 +89,6 @@ input {
   margin-top: 1rem;
   font-size: 1.8rem;
 }
-
-/* Single Movie css code  */
 
 .movie-section {
   background-color: var(--text-clr);
@@ -120,7 +104,6 @@ input {
 }
 
 .movie-section .grid {
-  /* background-color: #474bff; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -149,18 +132,11 @@ input {
   }
 }
 
-/* .movie-section .loading {
-  font-size: 3.2rem;
-  color: var(--bg-clr);
-  text-align: center;
-} */
-
 .movie-card {
   background-color: var(--bg-clr);
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  /* align-items: center; */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 2rem;
   justify-content: center;
@@ -176,8 +152,6 @@ figure {
   height: 100%;
   margin: 0;
   border-radius: 10px;
-  
-  /* border-radius: 0; */
   max-height: 50rem;
   height: auto;
 }
@@ -209,7 +183,6 @@ a {
   justify-content: center;
   margin-top: 2rem;
   padding: 3.2rem 1rem;
-  /* background-color: var(--text-clr); */
   color: var(--text-clr);
   border: 0.2rem solid var(--text-clr);
   font-size: 1.8rem;
@@ -238,7 +211,6 @@ a:hover img {
   padding: 1.2rem 3.6rem;
 }
 
-/* responsive code   */
 @media (max-width: 1200px) {
   .container {
     margin: auto;
@@ -255,7 +227,6 @@ a:hover img {
     margin: 0;
   }
   .grid .grid-4-col {
-    /* background-color: bisque; */
     justify-content: space-around;
     gap: 10px;
     margin-left: 0;
@@ -264,10 +235,6 @@ a:hover img {
   input {
     width: 25rem;
   }
-
-  /* .movie-card {
-    grid-template-columns: 1fr;
-  } */
 
   .card-content {
     padding-left: 2rem;
