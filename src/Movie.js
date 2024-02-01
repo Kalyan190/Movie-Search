@@ -9,14 +9,14 @@ const Movie = () => {
   const {movie,isLoading} = useGlobalContext();
   if(isLoading){
     return (
-        <div className='loading'>Loading...</div>
+        <div className='loading spinner'></div>
     
     )
   }
 
   return (
     <>
-    <section className='Movie-page'>
+    <section className='movie-section'>
     <div className='grid grid-4-col'>
        { 
         movie? movie.map((index)=>{
